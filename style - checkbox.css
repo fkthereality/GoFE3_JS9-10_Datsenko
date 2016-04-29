@@ -1,0 +1,17 @@
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(checkbox-disabled.png);
+    overflow: hidden;
+}
+.niceChecked {
+    background-position: 0 -17px;
+}
+.niceCheck input {
+    margin-left: -200px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled {
+    background-image: url(checkbox-disabled-1.png);
+}
