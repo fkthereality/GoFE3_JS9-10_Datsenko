@@ -1,4 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, font, img, strong, b, u, i, sup, sub, center, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, font, img, strong, b, u, i, sup, sub, center, dl, dt, dd, ol, ul, li, label, table, tbody, tfoot, thead, tr, th, td {
 margin: 0;
 padding: 0;
 border: 0;
@@ -51,4 +51,50 @@ color: #365d95;
 	border-bottom: 1px solid #55b05a;
 	margin-bottom: 40px;
 	padding: 3px 0;
+}
+
+
+/*form {
+	margin: 50px;
+	background: #99CCFF;
+	padding: 10px;
+}
+*/
+.niceCheck span{
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(img/checkbox.png);
+	overflow: hidden;
+}
+.niceChecked span {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px;
+}
+div {
+	margin-bottom: 10px;
+}
+.niceCheckDisabled span {
+	background-image: url(img/checkbox-disabled.png);
+}
+
+.niceCheck span{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(checkbox-disabled.png);
+    overflow: hidden;
+}
+.niceChecked span {
+    background-position: 0 -17px;
+}
+.niceCheck input {
+    margin-left: -200px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled span {
+    background-image: url(checkbox-disabled-1.png);
 }
